@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Parcialjc</string>
+    <string name="Button">Crear base de datos</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_apellido">Apellido:</string>
+    <string name="hint_contraseña">Contraseña:</string>
+    <string name="btn_guardar">Guardar datos</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+</resources>
