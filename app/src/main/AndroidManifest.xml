@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Parcialjc"
         tools:targetApi="31">
         <activity
-            android:name=".producto"
+            android:name=".Producto"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

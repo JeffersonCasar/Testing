@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     Toast.makeText(MainActivity.this,"Verifica si existen campos vacios", Toast.LENGTH_SHORT).show();;
                 }
-                startActivity(new Intent(MainActivity.this, producto.class));
+                startActivity(new Intent(MainActivity.this, Producto.class));
             }
         });
     }

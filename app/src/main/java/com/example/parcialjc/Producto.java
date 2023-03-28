@@ -1,18 +1,14 @@
 package com.example.parcialjc;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class producto extends AppCompatActivity {
+public class Producto extends AppCompatActivity {
 
     Button guardarfruta;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +19,7 @@ public class producto extends AppCompatActivity {
         guardarfruta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(producto.this,"Fruta guardada", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Producto.this,"Fruta guardada", Toast.LENGTH_SHORT).show();
             }
         });
 
